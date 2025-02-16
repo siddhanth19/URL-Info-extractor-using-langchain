@@ -1,44 +1,46 @@
-**URL Information Extractor (RAG-based)
-**
-This project is a Retrieval-Augmented Generation (RAG)-based application that extracts and processes webpage data to provide accurate answers to user queries. It uses LangChain along with vector search to enhance information retrieval and response generation.
+# 🌐 URL Information Extractor (RAG-based)  
 
-🚀 Features
+This project is a **Retrieval-Augmented Generation (RAG)**-based application that extracts and processes webpage data to provide accurate answers to user queries. It uses **LangChain** along with **vector search** to enhance information retrieval and response generation.  
 
-RAG Implementation: Combines retrieval from a knowledge base and generation via LLM.
+---
 
-FAISS Vector Search: Stores and retrieves webpage content efficiently.
+## 🚀 Features  
 
-MapReduce Technique: Optimized retrieval for large documents.
+✅ **RAG Implementation** – Combines retrieval from a knowledge base and generation via LLM.  
+✅ **FAISS Vector Search** – Stores and retrieves webpage content efficiently.  
+✅ **MapReduce Technique** – Optimized retrieval for large documents.  
+✅ **Multi-URL Support** – Processes multiple sources for better contextual answers.  
+✅ **Source Citation** – Provides URLs as references for generated answers.  
 
-Multi-URL Support: Processes multiple sources for better contextual answers.
+---
 
-Source Citation: Provides URLs as references for generated answers.
+## 🛠️ Tech Stack  
 
-🛠️ Tech Stack
+- **LangChain** (for pipeline construction)  
+- **FAISS** (for vector-based retrieval)  
+- **DeepSeek-R1 LLM** (for response generation)  
+- **UnstructuredURLLoader** (for loading webpage content)  
+- **RecursiveCharacterTextSplitter** (for text chunking)  
 
-LangChain (for pipeline construction)
+---
 
-FAISS (for vector-based retrieval)
+## 🔍 How It Works  
 
-DeepSeek-R1 LLM (for response generation)
+1️⃣ **Webpage Content Extraction** – Loads raw text from URLs.  
+2️⃣ **Chunking & Vectorization** – Splits text into smaller segments and converts them into vector embeddings.  
+3️⃣ **Storage & Retrieval** – Stores embeddings in FAISS and retrieves relevant chunks based on user queries.  
+4️⃣ **Response Generation** – Uses retrieved data to generate an answer via LLM.  
 
-UnstructuredURLLoader (for loading webpage content)
+---
 
-RecursiveCharacterTextSplitter (for text chunking)
+## 🎥 Demo  
 
-🔍 How It Works
+[🔗 Watch the Demo](https://www.linkedin.com/posts/siddhanth-garg-7b13b0232_langchain-rag-retrievalaugmentedgeneration-activity-7296937240935510016-yJlH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoUQ3UB3OwnD75rRLhBQTig7lKmWt2Ejtc)  
 
-1️⃣ Webpage Content Extraction: Loads raw text from URLs.
-2️⃣ Chunking & Vectorization: Splits text into smaller segments and converts them into vector embeddings.
-3️⃣ Storage & Retrieval: Stores embeddings in FAISS and retrieves relevant chunks based on user queries.
-4️⃣ Response Generation: Uses retrieved data to generate an answer via LLM.
+---
 
-🎥 Demo
+## 📜 License  
 
-https://www.linkedin.com/posts/siddhanth-garg-7b13b0232_langchain-rag-retrievalaugmentedgeneration-activity-7296937240935510016-yJlH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoUQ3UB3OwnD75rRLhBQTig7lKmWt2Ejtc
+This project is open-source and available under the **MIT License**.  
 
-📜 License
-
-This project is open-source and available under the MIT License.
-
-For suggestions or collaborations, feel free to connect with me! 🚀
+For suggestions or collaborations, feel free to **connect with me!** 🚀  
