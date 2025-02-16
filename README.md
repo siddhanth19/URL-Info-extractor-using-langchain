@@ -1,5 +1,5 @@
-URL Information Extractor (RAG-based)
-
+**URL Information Extractor (RAG-based)
+**
 This project is a Retrieval-Augmented Generation (RAG)-based application that extracts and processes webpage data to provide accurate answers to user queries. It uses LangChain along with vector search to enhance information retrieval and response generation.
 
 🚀 Features
@@ -28,7 +28,10 @@ RecursiveCharacterTextSplitter (for text chunking)
 
 🔍 How It Works
 
-1️⃣ Webpage Content Extraction: Loads raw text from URLs.2️⃣ Chunking & Vectorization: Splits text into smaller segments and converts them into vector embeddings.3️⃣ Storage & Retrieval: Stores embeddings in FAISS and retrieves relevant chunks based on user queries.4️⃣ Response Generation: Uses retrieved data to generate an answer via LLM.
+1️⃣ Webpage Content Extraction: Loads raw text from URLs.
+2️⃣ Chunking & Vectorization: Splits text into smaller segments and converts them into vector embeddings.
+3️⃣ Storage & Retrieval: Stores embeddings in FAISS and retrieves relevant chunks based on user queries.
+4️⃣ Response Generation: Uses retrieved data to generate an answer via LLM.
 
 🎥 Demo
 
